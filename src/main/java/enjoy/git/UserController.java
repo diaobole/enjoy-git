@@ -10,7 +10,8 @@ import org.springframework.web.bind.annotation.RestController;
 public class UserController {
     @RequestMapping("/hello")
     public Object sayHello() {
-        println("hello, release-v0.18!");
+        return "hello-v0.18";
+        return "world-v0.18";
     }
 }
 
